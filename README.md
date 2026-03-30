@@ -149,9 +149,9 @@ The full build log with actual prompts used is documented in the [companion case
 
 ## Built by
 
-**Darpan Dadhaniya** — Lead Product Manager, 14+ years in SaaS
+**Darpan Dadhaniya** — Product Leader, 10+ years in B2B/B2C SaaS
 
-[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN) · [Portfolio](NOTION_PORTFOLIO_URL) · [GitHub](https://github.com/YOUR_GITHUB)
+[LinkedIn](https://www.linkedin.com/in/darpan-dadhaniya/) · [Portfolio](NOTION_PORTFOLIO_URL) · [GitHub](https://github.com/YOUR_GITHUB)
 
 ---
 
