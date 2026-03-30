@@ -2,9 +2,10 @@
 
 A responsive, animated testimonial masonry wall — built entirely with AI tools. No manual coding. Replaces a $360/year SaaS subscription with a self-hosted, data-driven component that embeds seamlessly into a dark mode Notion portfolio.
 
-**[Live demo](https://peanut-lung-27249983.figma.site)** · **[See it in context on my portfolio](NOTION_PORTFOLIO_URL)**
+**[Live demo](https://peanut-lung-27249983.figma.site)** · **[See it in context on my portfolio](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme)**
 
-`<img width="2463" height="812" alt="image" src="https://github.com/user-attachments/assets/fbd22107-1410-46b6-9d46-d0c28c60fc57" />`
+<img width="2463" height="812" alt="wall of love" src="https://github.com/user-attachments/assets/e5813796-9e00-47cf-a1d9-c21ae45bd068" />
+
 
 ---
 
@@ -137,7 +138,7 @@ The full build log with actual prompts used is documented in the [companion case
 
 **Darpan Dadhaniya** — Product Leader, 10+ years in B2B/B2C SaaS
 
-[LinkedIn](https://www.linkedin.com/in/darpan-dadhaniya/) · [Product Thinking](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme) ·  [Product Thinking](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme)
+[LinkedIn](https://www.linkedin.com/in/darpan-dadhaniya/) · [Product Thinking](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme) ·  [Product Playbooks](https://www.darpan.io/playbooks?utm_source=github&utm_medium=link&utm_content=readme)
 
 ---
 
