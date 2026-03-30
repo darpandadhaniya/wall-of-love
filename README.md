@@ -1,12 +1,10 @@
-# wall-of-love
-Responsive masonry Wall of Love testimonial component for a dark mode Notion page
 # Wall of Love
 
 A responsive, animated testimonial masonry wall — built entirely with AI tools. No manual coding. Replaces a $360/year SaaS subscription with a self-hosted, data-driven component that embeds seamlessly into a dark mode Notion portfolio.
 
-**[Live demo](FIGMA_MAKE_PUBLISHED_URL)** · **[See it in context on my portfolio](NOTION_PORTFOLIO_URL)**
+**[Live demo](https://peanut-lung-27249983.figma.site)** · **[See it in context on my portfolio](NOTION_PORTFOLIO_URL)**
 
-`[Screenshot or GIF of the live wall goes here]`
+`<img width="2463" height="812" alt="image" src="https://github.com/user-attachments/assets/fbd22107-1410-46b6-9d46-d0c28c60fc57" />`
 
 ---
 
@@ -25,7 +23,7 @@ I wanted full ownership of my social proof, zero recurring cost, and a pixel-per
 | Metric | Value |
 |---|---|
 | SaaS cost eliminated | ~$360/year |
-| Build time | [X hours], single day |
+| Build time | 4 hours, single day |
 | Manual code written | 0 lines (all AI-generated, human-reviewed) |
 | Testimonials migrated | 15, zero data loss |
 | Ongoing cost | $0 (free tiers) |
@@ -121,18 +119,6 @@ wall-of-love/
 
 ---
 
-## How it works
-
-**Data flow:** The frontend calls a Supabase Edge Function at `/make-server-81535eb2/testimonials`. The Edge Function reads a JSON array from the `kv_store_81535eb2` table (key: `testimonials`) and returns it. The React app distributes the testimonials across columns using round-robin allocation and renders them with a duplicated stack for seamless infinite scroll.
-
-**Scroll animation:** Each column's content is rendered twice. A CSS `@keyframes` animation moves the column from `translateY(0)` to `translateY(-50%)` over a calculated duration (`scrollDistance / 30px per second`), then resets. The reset is invisible because both halves are identical.
-
-**Responsive columns:** A `ResizeObserver` watches the container width. The column count formula accounts for 320px card width + 80px gap, capped at 5 columns. On mobile, it drops to 1. Each column gets a staggered animation delay to prevent visual synchronization.
-
-**Avatar hosting:** Images are stored in a public Supabase Storage bucket with permanent URLs. No Firebase dependency, no expiring tokens.
-
----
-
 ## How it was built
 
 This project was built entirely through AI-assisted development:
@@ -143,7 +129,7 @@ This project was built entirely through AI-assisted development:
 4. **Iteration** — Visual comparison against the original SaaS output drove refinement prompts for shadow style, card spacing, responsive behaviour, and scroll speed
 5. **Security review** — Claude audited the codebase for secrets exposure, confirmed the anon key is safe for client-side use, verified `SERVICE_ROLE_KEY` stays server-side, and checked RLS policies
 
-The full build log with actual prompts used is documented in the [companion case study](NOTION_CASE_STUDY_URL).
+The full build log with actual prompts used is documented in the [companion case study](https://www.darpan.io/built-a-testimonial-wall-of-love-with-ai?utm_source=github&utm_medium=link&utm_content=readme).
 
 ---
 
@@ -151,7 +137,7 @@ The full build log with actual prompts used is documented in the [companion case
 
 **Darpan Dadhaniya** — Product Leader, 10+ years in B2B/B2C SaaS
 
-[LinkedIn](https://www.linkedin.com/in/darpan-dadhaniya/) · [Portfolio](NOTION_PORTFOLIO_URL) · [GitHub](https://github.com/YOUR_GITHUB)
+[LinkedIn](https://www.linkedin.com/in/darpan-dadhaniya/) · [Product Thinking](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme) ·  [Product Thinking](https://www.darpan.io/samples?utm_source=github&utm_medium=link&utm_content=readme)
 
 ---
 
